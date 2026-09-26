@@ -1,0 +1,27 @@
+- generic [ref=f1e3]:
+  - generic [ref=f1e5]:
+    - heading "ExpenseTracker" [level=1] [ref=f1e9]
+    - paragraph [ref=f1e10]: Track your expenses, manage budgets, and take control of your finances.
+  - generic [ref=f1e12]:
+    - generic [ref=f1e13]:
+      - heading "Welcome back" [level=2] [ref=f1e17]
+      - paragraph [ref=f1e18]: Sign in to your account to continue
+    - generic [ref=f1e19]:
+      - generic [ref=f1e20]:
+        - generic [ref=f1e21]: Email
+        - textbox "Email" [ref=f1e22]:
+          - /placeholder: Enter your email
+      - generic [ref=f1e23]:
+        - generic [ref=f1e24]: Password
+        - generic [ref=f1e25]:
+          - textbox "Password" [ref=f1e26]:
+            - /placeholder: Enter your password
+          - button [ref=f1e27] [cursor=pointer]
+      - generic [ref=f1e32] [cursor=pointer]:
+        - checkbox "Remember me" [ref=f1e33]
+        - text: Remember me
+      - button "Sign In" [ref=f1e34] [cursor=pointer]
+    - generic [ref=f1e35]:
+      - text: Don't have an account?
+      - link "Sign up" [ref=f1e36] [cursor=pointer]:
+        - /url: /signup

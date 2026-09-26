@@ -1,0 +1,38 @@
+- generic [ref=e37]:
+  - generic [ref=e39]:
+    - heading "ExpenseTracker" [level=1] [ref=e43]
+    - paragraph [ref=e44]: Track your expenses, manage budgets, and take control of your finances.
+  - generic [ref=e46]:
+    - generic [ref=e47]:
+      - heading "Create account" [level=2] [ref=e51]
+      - paragraph [ref=e52]: Start tracking your expenses today
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]: Email
+        - textbox "Email" [ref=e56]:
+          - /placeholder: Enter your email
+      - generic [ref=e57]:
+        - generic [ref=e58]: Username
+        - textbox "Username" [ref=e59]:
+          - /placeholder: Choose a username
+      - generic [ref=e60]:
+        - generic [ref=e61]: Password
+        - generic [ref=e62]:
+          - textbox "Password" [ref=e63]:
+            - /placeholder: Create a password
+          - button [ref=e64] [cursor=pointer]
+        - paragraph [ref=e68]: At least 6 characters with uppercase, lowercase, and number/special character
+      - generic [ref=e69]:
+        - generic [ref=e70]: Confirm Password
+        - generic [ref=e71]:
+          - textbox "Confirm Password" [ref=e72]:
+            - /placeholder: Confirm your password
+          - button [ref=e73] [cursor=pointer]
+      - generic [ref=e77]:
+        - generic [ref=e78]: Monthly Income (Optional)
+        - spinbutton "Monthly Income (Optional)" [ref=e79]
+      - button "Create Account" [ref=e80] [cursor=pointer]
+    - generic [ref=e81]:
+      - text: Already have an account?
+      - link "Sign in" [ref=e82] [cursor=pointer]:
+        - /url: /signin

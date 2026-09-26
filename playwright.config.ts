@@ -1,4 +1,14 @@
 import { defineConfig, devices } from '@playwright/test';
+import { existsSync } from 'node:fs';
+import path from 'node:path';
+
+const envFile = path.resolve(__dirname, '.env');
+if (existsSync(envFile)) {
+  if (typeof process.loadEnvFile !== 'function') {
+    throw new Error('Loading .env requires Node.js 20.12 or newer.');
+  }
+  process.loadEnvFile(envFile);
+}
 
 /**
  * Read environment variables from file.
@@ -12,7 +22,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './tests',
+  testDir: '.',
   /* Run tests in files in parallel */
   timeout : 1 * 60 * 1000,
   fullyParallel: true,

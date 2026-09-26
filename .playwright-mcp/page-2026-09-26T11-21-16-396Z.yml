@@ -1,0 +1,72 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e38]:
+    - navigation [ref=e39]:
+      - link "ExpenseTracker" [ref=e40] [cursor=pointer]:
+        - /url: /dashboard
+      - generic [ref=e45]:
+        - link "Dashboard" [ref=e46] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Expenses" [ref=e52] [cursor=pointer]:
+          - /url: /expenses
+        - link "Categories" [ref=e55] [cursor=pointer]:
+          - /url: /categories
+        - link "Budgets" [ref=e58] [cursor=pointer]:
+          - /url: /budgets
+        - link "Profile" [ref=e62] [cursor=pointer]:
+          - /url: /profile
+      - button "V vandy" [ref=e67] [cursor=pointer]:
+        - generic [ref=e68]: V
+        - generic [ref=e69]: vandy
+    - main [ref=e73]:
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: ₹
+              - generic [ref=e79]:
+                - generic [ref=e80]: ↘
+                - text: 0.0%
+            - generic [ref=e81]: ₹0.00
+            - generic [ref=e82]: Total Spent
+          - generic [ref=e83]:
+            - generic [ref=e84]: ◎
+            - generic [ref=e86]: ₹0.00
+            - generic [ref=e87]: Total Budget
+          - generic [ref=e88]:
+            - generic [ref=e89]: ☰
+            - generic [ref=e91]: "0"
+            - generic [ref=e92]: Expense Count
+          - generic [ref=e93]:
+            - generic [ref=e94]: ↗
+            - generic [ref=e96]: ₹0.00
+            - generic [ref=e97]: Avg. Expense
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - generic [ref=e101]: Budget Utilization
+            - generic [ref=e102]: "Spent: ₹0.00"
+          - generic [ref=e103]:
+            - generic [ref=e104]: 0.0%
+            - text: "Budget: ₹0.00"
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]: Spending Trends (6 months)
+            - application [ref=e112]:
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - generic [ref=e120]: Apr 2026
+                  - generic [ref=e122]: May 2026
+                  - generic [ref=e124]: Jun 2026
+                  - generic [ref=e126]: Jul 2026
+                  - generic [ref=e128]: Aug 2026
+                  - generic [ref=e130]: Sep 2026
+                - generic [ref=e132]:
+                  - generic [ref=e133]: ₹0
+                  - generic [ref=e135]: ₹1
+                  - generic [ref=e137]: ₹2
+                  - generic [ref=e139]: ₹3
+                  - generic [ref=e141]: ₹4
+          - generic [ref=e143]:
+            - generic [ref=e144]: Category Breakdown
+            - application [ref=e148]
+        - generic [ref=e149]: Top Expenses
+  - generic [aria-hidden] [ref=e151]: ₹0

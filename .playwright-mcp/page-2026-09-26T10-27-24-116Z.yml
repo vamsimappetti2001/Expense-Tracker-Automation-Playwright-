@@ -1,0 +1,42 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - heading "ExpenseTracker" [level=1] [ref=e9]
+    - paragraph [ref=e10]: Track your expenses, manage budgets, and take control of your finances.
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - heading "Create account" [level=2] [ref=e17]
+      - paragraph [ref=e18]: Start tracking your expenses today
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: Email
+        - textbox "Email" [ref=e22]:
+          - /placeholder: Enter your email
+          - text: planner-weak-pass@example.invalid
+      - generic [ref=e23]:
+        - generic [ref=e24]: Username
+        - textbox "Username" [ref=e25]:
+          - /placeholder: Choose a username
+          - text: planner-weak-pass-us
+      - generic [ref=e26]:
+        - generic [ref=e27]: Password
+        - generic [ref=e28]:
+          - textbox "Password" [active] [ref=e29]:
+            - /placeholder: Create a password
+            - text: weak
+          - button [ref=e30] [cursor=pointer]
+        - paragraph [ref=e34]: At least 6 characters with uppercase, lowercase, and number/special character
+      - generic [ref=e35]:
+        - generic [ref=e36]: Confirm Password
+        - generic [ref=e37]:
+          - textbox "Confirm Password" [ref=e38]:
+            - /placeholder: Confirm your password
+            - text: weak
+          - button [ref=e39] [cursor=pointer]
+      - generic [ref=e43]:
+        - generic [ref=e44]: Monthly Income (Optional)
+        - spinbutton "Monthly Income (Optional)" [ref=e45]
+      - button "Create Account" [ref=e46] [cursor=pointer]
+    - generic [ref=e47]:
+      - text: Already have an account?
+      - link "Sign in" [ref=e48] [cursor=pointer]:
+        - /url: /signin
