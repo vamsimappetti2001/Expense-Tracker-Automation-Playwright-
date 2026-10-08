@@ -14,7 +14,7 @@ test.describe('Expenses page workflows', () => {
     const description = `cancelled e2e expense ${Date.now()}`;
 
     await page.goto('https://nest-js-expense-tracker.vercel.app/signin');
-    await page.getByRole('textbox', { name: 'Email' }).fill('vamsimappetti@gmail.com');
+    await page.getByRole('textbox', { name: 'Email' }).fill('vamsimappetti@gmail.com');                                                
     await page.getByRole('textbox', { name: 'Password' }).fill('Arunadeena@1822');
     await page.getByRole('button', { name: 'Sign In' }).click();
     await expect(page).not.toHaveURL(/\/signin$/, { timeout: 60_000 });

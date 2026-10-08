@@ -1,0 +1,20 @@
+- generic [ref=e40]:
+  - navigation [ref=e41]:
+    - link "ExpenseTracker" [ref=e42] [cursor=pointer]:
+      - /url: /dashboard
+    - generic [ref=e47]:
+      - link "Dashboard" [ref=e48] [cursor=pointer]:
+        - /url: /dashboard
+      - link "Expenses" [ref=e54] [cursor=pointer]:
+        - /url: /expenses
+      - link "Categories" [ref=e57] [cursor=pointer]:
+        - /url: /categories
+      - link "Budgets" [ref=e60] [cursor=pointer]:
+        - /url: /budgets
+      - link "Profile" [ref=e64] [cursor=pointer]:
+        - /url: /profile
+    - button "V vandy" [ref=e69] [cursor=pointer]:
+      - generic [ref=e70]: V
+      - generic [ref=e71]: vandy
+  - main [ref=e75]:
+    - generic [ref=e76]: Loading dashboard...
