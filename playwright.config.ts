@@ -7,6 +7,8 @@ if (existsSync(envFile)) {
   if (typeof process.loadEnvFile !== 'function') {
     throw new Error('Loading .env requires Node.js 20.12 or newer.');
   }
+  delete process.env.EXPENSE_TRACKER_EMAIL;
+  delete process.env.EXPENSE_TRACKER_PASSWORD;
   process.loadEnvFile(envFile);
 }
 

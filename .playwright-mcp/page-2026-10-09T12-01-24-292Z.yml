@@ -1,0 +1,56 @@
+- generic [ref=f4e3]:
+  - navigation [ref=f4e4]:
+    - link "ExpenseTracker" [ref=f4e5] [cursor=pointer]:
+      - /url: /dashboard
+    - generic [ref=f4e10]:
+      - link "Dashboard" [ref=f4e11] [cursor=pointer]:
+        - /url: /dashboard
+      - link "Expenses" [ref=f4e17] [cursor=pointer]:
+        - /url: /expenses
+      - link "Categories" [ref=f4e20] [cursor=pointer]:
+        - /url: /categories
+      - link "Budgets" [ref=f4e23] [cursor=pointer]:
+        - /url: /budgets
+      - link "Profile" [ref=f4e27] [cursor=pointer]:
+        - /url: /profile
+    - button "V vandy" [ref=f4e32] [cursor=pointer]:
+      - generic [ref=f4e33]: V
+      - generic [ref=f4e34]: vandy
+  - main [ref=f4e38]:
+    - generic [ref=f4e39]:
+      - generic [ref=f4e40]:
+        - heading "Profile" [level=1] [ref=f4e41]
+        - paragraph [ref=f4e42]: Manage your account settings
+      - generic [ref=f4e43]:
+        - generic [ref=f4e44]:
+          - generic [ref=f4e45]: V
+          - generic [ref=f4e46]:
+            - heading "vandy" [level=2] [ref=f4e47]
+            - paragraph [ref=f4e48]: vamsimappetti@gmail.com
+        - generic [ref=f4e49]:
+          - generic [ref=f4e50]:
+            - generic [ref=f4e51]: Email
+            - textbox "Email" [disabled] [ref=f4e52]: vamsimappetti@gmail.com
+          - generic [ref=f4e53]:
+            - generic [ref=f4e54]: Username
+            - textbox "Username" [ref=f4e55]: vandy
+          - generic [ref=f4e56]:
+            - generic [ref=f4e57]: Monthly Income
+            - spinbutton "Monthly Income" [ref=f4e58]: "50000.00"
+          - generic [ref=f4e59]:
+            - generic [ref=f4e65]:
+              - heading "Email Notifications" [level=4] [ref=f4e66]
+              - paragraph [ref=f4e67]: Receive budget alerts and reports
+            - generic [ref=f4e68]:
+              - checkbox
+              - generic [ref=f4e69] [cursor=pointer]
+          - button "Save Changes" [disabled] [ref=f4e70]
+        - generic [ref=f4e75]:
+          - heading "Account Information" [level=3] [ref=f4e76]
+          - generic [ref=f4e77]:
+            - generic [ref=f4e78]:
+              - generic [ref=f4e79]: Member since
+              - generic [ref=f4e80]: N/A
+            - generic [ref=f4e81]:
+              - generic [ref=f4e82]: Last updated
+              - generic [ref=f4e83]: N/A

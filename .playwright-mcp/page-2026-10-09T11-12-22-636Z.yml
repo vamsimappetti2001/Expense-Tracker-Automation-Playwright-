@@ -1,0 +1,34 @@
+- generic [ref=e1]:
+  - generic [ref=e37]:
+    - navigation [ref=e38]:
+      - link "ExpenseTracker" [ref=e39] [cursor=pointer]:
+        - /url: /dashboard
+      - generic [ref=e44]:
+        - link "Dashboard" [ref=e45] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Expenses" [active] [ref=e51] [cursor=pointer]:
+          - /url: /expenses
+        - link "Categories" [ref=e54] [cursor=pointer]:
+          - /url: /categories
+        - link "Budgets" [ref=e57] [cursor=pointer]:
+          - /url: /budgets
+        - link "Profile" [ref=e61] [cursor=pointer]:
+          - /url: /profile
+      - button "V vandy" [ref=e66] [cursor=pointer]:
+        - generic [ref=e67]: V
+        - generic [ref=e68]: vandy
+    - main [ref=e72]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - heading "Expenses" [level=1] [ref=e154]
+            - paragraph [ref=e155]: 0 total expenses
+          - button "Add Expense" [ref=e156] [cursor=pointer]
+        - generic [ref=e158]:
+          - textbox "Search expenses..." [ref=e164]
+          - button "Filters" [ref=e165] [cursor=pointer]
+        - generic [ref=e167]:
+          - generic [ref=e168]: 📝
+          - generic [ref=e169]: No expenses found
+          - generic [ref=e170]: Add your first expense to get started
+  - generic [aria-hidden] [ref=e150]: ₹0
