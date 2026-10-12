@@ -1,0 +1,31 @@
+- generic [ref=e1]:
+  - generic [ref=e37]:
+    - navigation [ref=e38]:
+      - link "ExpenseTracker" [ref=e39] [cursor=pointer]:
+        - /url: /dashboard
+      - generic [ref=e44]:
+        - link "Dashboard" [ref=e45] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Expenses" [ref=e51] [cursor=pointer]:
+          - /url: /expenses
+        - link "Categories" [ref=e54] [cursor=pointer]:
+          - /url: /categories
+        - link "Budgets" [active] [ref=e57] [cursor=pointer]:
+          - /url: /budgets
+        - link "Profile" [ref=e61] [cursor=pointer]:
+          - /url: /profile
+      - button "V vandy" [ref=e66] [cursor=pointer]:
+        - generic [ref=e67]: V
+        - generic [ref=e68]: vandy
+    - main [ref=e72]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - heading "Budgets" [level=1] [ref=e154]
+            - paragraph [ref=e155]: October 2026 · 0 active budgets
+          - button "Add Budget" [ref=e156] [cursor=pointer]
+        - generic [ref=e158]:
+          - generic [ref=e159]: 💰
+          - generic [ref=e160]: No budgets yet
+          - generic [ref=e161]: Create your first budget to start tracking your spending
+  - generic [aria-hidden] [ref=e150]: ₹0

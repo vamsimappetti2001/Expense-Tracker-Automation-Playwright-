@@ -1,0 +1,74 @@
+- generic [ref=e1]:
+  - generic [ref=e38]:
+    - navigation [ref=e39]:
+      - link "ExpenseTracker" [ref=e40] [cursor=pointer]:
+        - /url: /dashboard
+      - generic [ref=e45]:
+        - link "Dashboard" [ref=e46] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Expenses" [ref=e52] [cursor=pointer]:
+          - /url: /expenses
+        - link "Categories" [ref=e55] [cursor=pointer]:
+          - /url: /categories
+        - link "Budgets" [ref=e58] [cursor=pointer]:
+          - /url: /budgets
+        - link "Profile" [ref=e62] [cursor=pointer]:
+          - /url: /profile
+      - button "V vandy" [ref=e67] [cursor=pointer]:
+        - generic [ref=e68]: V
+        - generic [ref=e69]: vandy
+    - main [ref=e73]:
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - heading "Budgets" [level=1] [ref=e155]
+            - paragraph [ref=e156]: October 2026 · 0 active budgets
+          - button "Add Budget" [ref=e157] [cursor=pointer]
+        - generic [ref=e159]:
+          - generic [ref=e160]: 💰
+          - generic [ref=e161]: No budgets yet
+          - generic [ref=e162]: Create your first budget to start tracking your spending
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - heading "New Budget" [level=3] [ref=e167]
+              - paragraph [ref=e168]: Add a new budget to track your spending.
+            - button [ref=e169] [cursor=pointer]
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - generic [ref=e176]: Category
+                - button "💡 Bills & Utilities" [ref=e248] [cursor=pointer]:
+                  - generic [ref=e179]:
+                    - generic [ref=e180]: 💡
+                    - generic [ref=e249]: Bills & Utilities
+              - generic [ref=e184]:
+                - generic [ref=e185]: Budget Limit
+                - generic [ref=e186]:
+                  - generic [ref=e187]: ₹
+                  - spinbutton "Budget Limit" [ref=e188]
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - generic [ref=e191]: Month
+                  - generic [ref=e192]:
+                    - button "October" [expanded] [active] [ref=e193] [cursor=pointer]
+                    - listbox [ref=e250]:
+                      - option "January" [ref=e251] [cursor=pointer]
+                      - option "February" [ref=e253] [cursor=pointer]
+                      - option "March" [ref=e255] [cursor=pointer]
+                      - option "April" [ref=e257] [cursor=pointer]
+                      - option "May" [ref=e259] [cursor=pointer]
+                      - option "June" [ref=e261] [cursor=pointer]
+                      - option "July" [ref=e263] [cursor=pointer]
+                      - option "August" [ref=e265] [cursor=pointer]
+                      - option "September" [ref=e267] [cursor=pointer]
+                      - option "October" [selected] [ref=e269] [cursor=pointer]
+                      - option "November" [ref=e271] [cursor=pointer]
+                      - option "December" [ref=e273] [cursor=pointer]
+                - generic [ref=e199]:
+                  - generic [ref=e200]: Year
+                  - button "2026" [ref=e202] [cursor=pointer]
+            - generic [ref=e208]:
+              - button "Cancel" [ref=e209] [cursor=pointer]
+              - button "Create" [ref=e210] [cursor=pointer]
+  - generic [aria-hidden] [ref=e151]: ₹0
