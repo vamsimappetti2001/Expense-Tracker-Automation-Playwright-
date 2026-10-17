@@ -1,0 +1,33 @@
+import { test, expect } from '@playwright/test';
+
+test('Add-Create-Edit-Delete_Category Test Cases', async ({ page }) => {
+  await page.goto('about:blank');
+  await page.goto('https://nest-js-expense-tracker.vercel.app/signin');
+  await page.getByRole('textbox', { name: 'Email' }).click();
+  await page.getByRole('textbox', { name: 'Email' }).fill('vamsimappetti@gmail.com');
+  await page.getByRole('textbox', { name: 'Password' }).click();
+  await page.getByRole('textbox', { name: 'Password' }).fill('Arunadeena');
+  await page.getByRole('button').filter({ hasText: /^$/ }).click();
+  await page.getByRole('textbox', { name: 'Password' }).click();
+  await page.getByRole('textbox', { name: 'Password' }).fill('Arunadeena@1822');
+  await page.getByRole('button').filter({ hasText: /^$/ }).click();
+  await page.getByRole('checkbox', { name: 'Remember me' }).check();
+  await page.getByRole('checkbox', { name: 'Remember me' }).uncheck();
+  await page.getByRole('button', { name: 'Sign In' }).click();
+  await page.getByRole('link', { name: 'Categories' }).click();
+  await page.getByRole('button', { name: 'Add Category' }).click();
+  await page.getByText('Category Name').click();
+  await page.getByRole('textbox', { name: 'Category Name' }).click();
+  await page.getByRole('textbox', { name: 'Category Name' }).click();
+  await page.getByRole('textbox', { name: 'Category Name' }).fill('upi transfer');
+  await page.getByRole('button', { name: '💳' }).click();
+  await page.getByRole('button', { name: 'Create' }).click();
+  await page.getByText('upi transfer').click();
+  await page.getByRole('button', { name: 'Edit' }).click();
+  await page.getByRole('textbox', { name: 'Category Name' }).click();
+  await page.getByRole('textbox', { name: 'Category Name' }).fill('upi cate');
+  await page.getByRole('button', { name: 'Save Changes' }).click();
+  await page.getByRole('button', { name: 'Delete' }).click();
+  await page.getByRole('heading', { name: 'Delete Category' }).click();
+  await page.getByText('Delete', { exact: true }).click();
+});

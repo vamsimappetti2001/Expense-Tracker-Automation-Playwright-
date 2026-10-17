@@ -1,0 +1,57 @@
+- generic [ref=e1]:
+  - generic [ref=e37]:
+    - navigation [ref=e38]:
+      - link "ExpenseTracker" [ref=e39] [cursor=pointer]:
+        - /url: /dashboard
+      - generic [ref=e44]:
+        - link "Dashboard" [ref=e45] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Expenses" [ref=e51] [cursor=pointer]:
+          - /url: /expenses
+        - link "Categories" [ref=e54] [cursor=pointer]:
+          - /url: /categories
+        - link "Budgets" [ref=e57] [cursor=pointer]:
+          - /url: /budgets
+        - link "Profile" [ref=e61] [cursor=pointer]:
+          - /url: /profile
+      - button "V vandy" [ref=e66] [cursor=pointer]:
+        - generic [ref=e67]: V
+        - generic [ref=e68]: vandy
+    - main [ref=e72]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - heading "Budgets" [level=1] [ref=e154]
+            - paragraph [ref=e155]: October 2026 · 0 active budgets
+          - button "Add Budget" [active] [ref=e156] [cursor=pointer]
+        - generic [ref=e158]:
+          - generic [ref=e159]: 💰
+          - generic [ref=e160]: No budgets yet
+          - generic [ref=e161]: Create your first budget to start tracking your spending
+        - generic [ref=e298]:
+          - generic [ref=e299]:
+            - generic [ref=e300]:
+              - heading "New Budget" [level=3] [ref=e301]
+              - paragraph [ref=e302]: Add a new budget to track your spending.
+            - button [ref=e303] [cursor=pointer]
+          - generic [ref=e307]:
+            - generic [ref=e308]:
+              - generic [ref=e309]:
+                - generic [ref=e310]: Category
+                - button "Select a category" [ref=e312] [cursor=pointer]
+              - generic [ref=e318]:
+                - generic [ref=e319]: Budget Limit
+                - generic [ref=e320]:
+                  - generic [ref=e321]: ₹
+                  - spinbutton "Budget Limit" [ref=e322]
+              - generic [ref=e323]:
+                - generic [ref=e324]:
+                  - generic [ref=e325]: Month
+                  - button "October" [ref=e327] [cursor=pointer]
+                - generic [ref=e333]:
+                  - generic [ref=e334]: Year
+                  - button "2026" [ref=e336] [cursor=pointer]
+            - generic [ref=e342]:
+              - button "Cancel" [ref=e343] [cursor=pointer]
+              - button "Create" [ref=e344] [cursor=pointer]
+  - generic [aria-hidden] [ref=e150]: ₹0

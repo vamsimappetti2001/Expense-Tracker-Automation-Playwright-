@@ -1,0 +1,79 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e3]:
+    - navigation [ref=f2e4]:
+      - link "ExpenseTracker" [ref=f2e5] [cursor=pointer]:
+        - /url: /dashboard
+      - generic [ref=f2e10]:
+        - link "Dashboard" [ref=f2e11] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Expenses" [ref=f2e17] [cursor=pointer]:
+          - /url: /expenses
+        - link "Categories" [ref=f2e20] [cursor=pointer]:
+          - /url: /categories
+        - link "Budgets" [ref=f2e23] [cursor=pointer]:
+          - /url: /budgets
+        - link "Profile" [ref=f2e27] [cursor=pointer]:
+          - /url: /profile
+      - generic [ref=f2e31]:
+        - button "V vandy" [active] [ref=f2e32] [cursor=pointer]:
+          - generic [ref=f2e33]: V
+          - generic [ref=f2e34]: vandy
+        - generic [ref=f2e117]:
+          - link "Settings" [ref=f2e118] [cursor=pointer]:
+            - /url: /profile
+          - link "Help & Support" [ref=f2e122] [cursor=pointer]:
+            - /url: "#"
+          - button "Sign Out" [ref=f2e127] [cursor=pointer]
+    - main [ref=f2e38]:
+      - generic [ref=f2e39]:
+        - generic [ref=f2e40]:
+          - generic [ref=f2e41]:
+            - generic [ref=f2e42]:
+              - generic [ref=f2e43]: ₹
+              - generic [ref=f2e44]:
+                - generic [ref=f2e45]: ↘
+                - text: 0.0%
+            - generic [ref=f2e46]: ₹0.00
+            - generic [ref=f2e47]: Total Spent
+          - generic [ref=f2e48]:
+            - generic [ref=f2e49]: ◎
+            - generic [ref=f2e51]: ₹0.00
+            - generic [ref=f2e52]: Total Budget
+          - generic [ref=f2e53]:
+            - generic [ref=f2e54]: ☰
+            - generic [ref=f2e56]: "0"
+            - generic [ref=f2e57]: Expense Count
+          - generic [ref=f2e58]:
+            - generic [ref=f2e59]: ↗
+            - generic [ref=f2e61]: ₹0.00
+            - generic [ref=f2e62]: Avg. Expense
+        - generic [ref=f2e64]:
+          - generic [ref=f2e65]:
+            - generic [ref=f2e66]: Budget Utilization
+            - generic [ref=f2e67]: "Spent: ₹0.00"
+          - generic [ref=f2e68]:
+            - generic [ref=f2e69]: 0.0%
+            - text: "Budget: ₹0.00"
+        - generic [ref=f2e71]:
+          - generic [ref=f2e72]:
+            - generic [ref=f2e73]: Spending Trends (6 months)
+            - application [ref=f2e77]:
+              - generic [ref=f2e83]:
+                - generic [ref=f2e84]:
+                  - generic [ref=f2e85]: May 2026
+                  - generic [ref=f2e87]: Jun 2026
+                  - generic [ref=f2e89]: Jul 2026
+                  - generic [ref=f2e91]: Aug 2026
+                  - generic [ref=f2e93]: Sep 2026
+                  - generic [ref=f2e95]: Oct 2026
+                - generic [ref=f2e97]:
+                  - generic [ref=f2e98]: ₹0
+                  - generic [ref=f2e100]: ₹1
+                  - generic [ref=f2e102]: ₹2
+                  - generic [ref=f2e104]: ₹3
+                  - generic [ref=f2e106]: ₹4
+          - generic [ref=f2e108]:
+            - generic [ref=f2e109]: Category Breakdown
+            - application [ref=f2e113]
+        - generic [ref=f2e114]: Top Expenses
+  - generic [aria-hidden] [ref=f2e116]: ₹0

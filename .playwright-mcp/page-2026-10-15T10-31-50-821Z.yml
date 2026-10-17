@@ -1,0 +1,90 @@
+- generic [ref=e1]:
+  - generic [ref=e37]:
+    - navigation [ref=e38]:
+      - link "ExpenseTracker" [ref=e39] [cursor=pointer]:
+        - /url: /dashboard
+      - generic [ref=e44]:
+        - link "Dashboard" [ref=e45] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Expenses" [ref=e51] [cursor=pointer]:
+          - /url: /expenses
+        - link "Categories" [active] [ref=e54] [cursor=pointer]:
+          - /url: /categories
+        - link "Budgets" [ref=e57] [cursor=pointer]:
+          - /url: /budgets
+        - link "Profile" [ref=e61] [cursor=pointer]:
+          - /url: /profile
+      - button "V vandy" [ref=e66] [cursor=pointer]:
+        - generic [ref=e67]: V
+        - generic [ref=e68]: vandy
+    - main [ref=e72]:
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - heading "Categories" [level=1] [ref=e77]
+            - paragraph [ref=e78]: 12 categories (12 default, 0 custom)
+          - button "Add Category" [ref=e79] [cursor=pointer]
+        - generic [ref=e81]:
+          - heading "Default Categories" [level=3] [ref=e82]
+          - generic [ref=e83]:
+            - generic [ref=e84] [cursor=pointer]:
+              - generic [ref=e85]: 💡
+              - generic [ref=e86]:
+                - generic [ref=e87]: Bills & Utilities
+                - generic [ref=e88]: Default
+            - generic [ref=e89] [cursor=pointer]:
+              - generic [ref=e90]: 📚
+              - generic [ref=e91]:
+                - generic [ref=e92]: Education
+                - generic [ref=e93]: Default
+            - generic [ref=e94] [cursor=pointer]:
+              - generic [ref=e95]: 🎬
+              - generic [ref=e96]:
+                - generic [ref=e97]: Entertainment
+                - generic [ref=e98]: Default
+            - generic [ref=e99] [cursor=pointer]:
+              - generic [ref=e100]: 🍔
+              - generic [ref=e101]:
+                - generic [ref=e102]: Food & Dining
+                - generic [ref=e103]: Default
+            - generic [ref=e104] [cursor=pointer]:
+              - generic [ref=e105]: 🏥
+              - generic [ref=e106]:
+                - generic [ref=e107]: Healthcare
+                - generic [ref=e108]: Default
+            - generic [ref=e109] [cursor=pointer]:
+              - generic [ref=e110]: 🛡
+              - generic [ref=e111]:
+                - generic [ref=e112]: Insurance
+                - generic [ref=e113]: Default
+            - generic [ref=e114] [cursor=pointer]:
+              - generic [ref=e115]: 📦
+              - generic [ref=e116]:
+                - generic [ref=e117]: Other
+                - generic [ref=e118]: Default
+            - generic [ref=e119] [cursor=pointer]:
+              - generic [ref=e120]: 💆
+              - generic [ref=e121]:
+                - generic [ref=e122]: Personal Care
+                - generic [ref=e123]: Default
+            - generic [ref=e124] [cursor=pointer]:
+              - generic [ref=e125]: 💰
+              - generic [ref=e126]:
+                - generic [ref=e127]: Savings
+                - generic [ref=e128]: Default
+            - generic [ref=e129] [cursor=pointer]:
+              - generic [ref=e130]: 🛍
+              - generic [ref=e131]:
+                - generic [ref=e132]: Shopping
+                - generic [ref=e133]: Default
+            - generic [ref=e134] [cursor=pointer]:
+              - generic [ref=e135]: 🚗
+              - generic [ref=e136]:
+                - generic [ref=e137]: Transportation
+                - generic [ref=e138]: Default
+            - generic [ref=e139] [cursor=pointer]:
+              - generic [ref=e140]: ✈
+              - generic [ref=e141]:
+                - generic [ref=e142]: Travel
+                - generic [ref=e143]: Default
+  - generic [aria-hidden] [ref=e144]: ₹0
